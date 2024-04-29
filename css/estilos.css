@@ -1,0 +1,171 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .contenedor-fondo{
+    background-image: url(../imagenes/bg.jpg);
+}
+.contenedor-fondo .menu{
+    text-align: right;
+    padding: 50px;
+    margin-right: 80px;
+}
+.contenedor-fondo .menu a{
+    color: #fff;
+    padding: 30px;
+    text-decoration: none;
+}
+header .contenedor-fondo .contenedor .texto{
+    text-align: center;
+    padding: 150px;
+    color: #fff;
+}
+header .contenedor-fondo .contenedor .texto .texto1{
+    text-align: center;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+header .contenedor-fondo .contenedor .texto .nombre{
+    font-size: 50px;
+    font-weight: 100;
+}
+header .contenedor-fondo .contenedor .texto .profesion{
+    font-size: 20px;
+    font-weight: 100;
+}
+/*----------ACERCA DE----------*/
+.main .acerca-de .contenedor .foto img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: -50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.main .acerca-de .contenedor{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.main .acerca-de .contenedor .texto .titulo{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    color: #C48300;
+}
+.main .acerca-de .contenedor .texto p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.main .acerca-de .contenedor .texto span{
+    color: #007bff;
+    text-decoration: underline;
+}
+/*TRABAJOS*/
+.main .trabajos{
+    width: 100%;
+    background-color: #EBEBEB;
+}
+.main .trabajos .contenedor{
+    width: 100%;
+    text-align: center;
+}
+.main .trabajos .contenedor .titulo{
+    color: #93999E;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main .trabajos .contenedor .contenedor-trabajos{
+    width: 100%;
+    padding: 10px;
+}
+.main .trabajos .contenedor .contenedor-trabajos .trabajo .thumb img{
+    width: 80%;
+}
+.main .trabajos .contenedor .contenedor-trabajos .trabajo{
+    width: 25%;
+    display: inline-block;
+}
+.main .trabajos .contenedor .contenedor-trabajos .trabajo .descripcion .nombre{
+    color: #066BBB;
+    font-weight: 600;
+}
+.main .trabajos .contenedor .contenedor-trabajos .trabajo .descripcion .categoria{
+    color: #60666A;
+}
+/*---------FOOTER--------*/
+footer .contacto .contenedor h3{
+    color: #066BBB;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+footer .contacto .contenedor .formulario{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+footer .contacto .contenedor .formulario .cuadro{
+    width: 100%;
+}
+footer .contacto .contenedor .formulario input{
+    width: 40%;
+    padding: 20px;
+    margin: 10px;
+}
+footer .contacto .contenedor .formulario textarea{
+    width: 80%;
+    margin: 10px;
+    padding: 20px;
+    height: 50px;
+    resize: none;
+}
+footer .contacto .contenedor .formulario .boton{
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+/*---------REDES SOCIALES---------*/
+footer .redes-sociales .contenedor{
+    background-color: #08355B;
+    padding: 50px;
+    text-align: center;
+}
+footer .redes-sociales .contenedor .twitter{
+    color: #fff;
+    padding: 30px;
+    font-size: 50px;
+}
+footer .redes-sociales .contenedor .facebook{
+    color: #fff;
+    padding: 30px;
+    font-size: 50px;
+}
+footer .redes-sociales .contenedor .youtube{
+    color: #fff;
+    padding: 30px;
+    font-size: 50px;
+}
+footer .redes-sociales .contenedor .github{
+    color: #fff;
+    padding: 30px;
+    font-size: 50px;
+}
+footer .redes-sociales .contenedor .instagram{
+    color: #fff;
+    padding: 30px;
+    font-size: 50px;
+}
